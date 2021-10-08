@@ -4,4 +4,4 @@ from .models import Project
 class ProjectSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Project
-        fields = ('title', 'description', 'link', 'repo')
+        fields = ('id','title', 'description', 'link', 'repo')
