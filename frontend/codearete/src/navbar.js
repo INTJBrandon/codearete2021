@@ -1,6 +1,9 @@
-import navbar from 'react-bootstrap/Navbar'
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container'
+import Nav from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/Navbar'
 
-export default function navbar() {
+export default function mainnavbar() {
     return (
         <Navbar bg="light" expand="lg">
             <Container>
